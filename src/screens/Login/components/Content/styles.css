@@ -1,8 +1,30 @@
-.container-content {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.container-content-login {
+    padding: 20px 25px 20px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.content-login-left {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.content-login-right {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.content-login-title {
+    text-align: center
+}
+
+.content-login-form {
+    padding: 10px 20px 10px 20px;
 }
 
 .width-inherit {

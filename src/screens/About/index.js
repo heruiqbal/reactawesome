@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Content from './components/Content';
 import LayoutDefault from '../../components/LayoutDefault';
-import { connect } from 'react-redux';
 
-class Home extends Component {
+class About extends Component {
 
     render() {
         return (
@@ -14,8 +13,4 @@ class Home extends Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-    state: state
-})
-
-export default connect(mapStateToProps,null)(Home);
+export default About;

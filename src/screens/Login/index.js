@@ -1,21 +1,16 @@
 import React, { Component } from 'react';
 import Content from './components/Content';
 import LayoutDefault from '../../components/LayoutDefault';
-import { connect } from 'react-redux';
 
-class Home extends Component {
+class Login extends Component {
 
     render() {
         return (
             <LayoutDefault>
-                <Content />
+                <Content {...this.props} />
             </LayoutDefault>
         );
     }
 }
 
-const mapStateToProps = (state) => ({
-    state: state
-})
-
-export default connect(mapStateToProps,null)(Home);
+export default Login;

@@ -20,3 +20,14 @@
 .red-text {
     color: red;
 }
+
+.header-button-link {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo-hacktiv8-header {
+    width: 100px;
+    margin-right: 20px;
+}
